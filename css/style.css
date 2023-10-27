@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 * {
-   font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 /* ------------------------BOX SIZING */
@@ -81,7 +81,6 @@ h3 {
   padding: 1rem 0;
   margin-top: 2rem;
   color: var(--bg-200);
-
 }
 
 .footer__text {
@@ -138,6 +137,7 @@ h3 {
 }
 
 /* ------------------------BANNER PRINCIPAL*/
+
 .banner__head {
   min-height: 40rem;
   margin-top: 3rem;
@@ -159,10 +159,10 @@ h3 {
   margin: 0;
 }
 
-.banner__head--text__{
-    font-size: 11rem;
-    font-weight: 700;
-    color: var(--bg-200);
+.banner__head--text__ {
+  font-size: 11rem;
+  font-weight: 700;
+  color: var(--bg-200);
 }
 
 .banner__head--img {
@@ -205,7 +205,6 @@ h3 {
 }
 .product__img {
   width: 100%;
-  /* border-radius: 2rem 2rem 0 0; */
   transition: 0.4s;
 }
 .product__img:hover {
@@ -264,42 +263,39 @@ h3 {
 }
 
 /* ------------------------ABOUT US */
-.aboutus{
-border-radius: 2rem;
-padding: 1rem 0 0 0;
-margin: 7rem auto 3rem auto;
+
+.aboutus {
+  border-radius: 2rem;
+  padding: 1rem 0 0 0;
+  margin: 7rem auto 3rem auto;
 }
 
-@media (max-width: 800px){
-    .aboutus__section{
-      flex-direction: column;
-      align-items: center;
-    }
+@media (max-width: 800px) {
+  .aboutus__section {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.aboutus__section{
-  display:flex ;
+.aboutus__section {
+  display: flex;
   padding: 0 3rem 3rem 3rem;
 }
 
-.aboutus__section--img{
+.aboutus__section--img {
   width: 40rem;
-  border-radius:1.3rem;
+  border-radius: 1.3rem;
 }
 
-.aboutus__section--text{
-padding: 0 3rem;
-font-size: 1.7rem;
+.aboutus__section--text {
+  padding: 0 3rem;
+  font-size: 1.7rem;
 }
 
-/* .info{
- 
-} */
-
-.info__title{
+.info__title {
   margin: 0 2rem 6rem 0;
 }
-.info__bloques{
+.info__bloques {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
@@ -307,83 +303,85 @@ font-size: 1.7rem;
   color: var(--text-200);
 }
 
-@media (min-width: 850px){
-  .info__bloques{
+@media (min-width: 850px) {
+  .info__bloques {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-   }
   }
-
-.info__content{
-text-align: center;
-padding: 2rem;
-border-radius: 3rem;
-margin-bottom: 5rem;
-background: rgb(242,242,242);
-background: linear-gradient(0deg, rgba(242,242,242,1) 4%, rgba(255,255,255,1) 100%);
-border: solid 1px var(--bg-300);
 }
 
-.info__content:hover{
+.info__content {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 3rem;
+  margin-bottom: 5rem;
+  background: rgb(242, 242, 242);
+  background: linear-gradient(
+    0deg,
+    rgba(242, 242, 242, 1) 4%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border: solid 1px var(--bg-300);
+}
+
+.info__content:hover {
   transform: scale(1.05);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.info__content--img{
-width: 80%;
+.info__content--img {
+  width: 80%;
 }
 
-.info__content--title{
-margin: 3rem 0 0 0;
-font-size: 3rem;
-line-height: 2.5rem;
-color: var(--primary-200);
-text-transform: uppercase;
+.info__content--title {
+  margin: 3rem 0 0 0;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  color: var(--primary-200);
+  text-transform: uppercase;
 }
-
-/* .info__content--p{
-
-} */
 
 /* ------------------------PRODUCTO */
 
-@media (min-width: 786px){
-  .camisa{
+@media (min-width: 786px) {
+  .camisa {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
-  }   
-}.camisa{
+  }
+}
+.camisa {
   margin: 2rem;
 }
-.camisa__img{
+.camisa__img {
   border-radius: 2rem;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   width: 100%;
 }
 
-.camisa__text{
- font-size: 2rem;
- line-height: 2.7rem;
+.camisa__text {
+  font-size: 2rem;
+  line-height: 2.7rem;
 }
 
-.camisa__form{
+.camisa__form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
 }
 
-.form__campo{
-border: none;
-padding: 0 2rem;
-font-size: 1.5rem;
-border-radius: 1rem;
-height: 5rem;
-width: auto; 
-background-color: var(--bg-300);
-appearance: none;
+.form__campo {
+  border: none;
+  padding: 0 2rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  height: 5rem;
+  width: auto;
+  background-color: var(--bg-300);
+  appearance: none;
 }
 
-.form__submit{
+.form__submit {
   grid-column: 1/3;
   background-color: var(--primary-300);
   border: none;
@@ -393,11 +391,11 @@ appearance: none;
   text-transform: uppercase;
   transition: 0.3s;
 }
-.form__submit:hover{
-   
+.form__submit:hover {
   color: var(--bg-200);
   cursor: pointer;
   background-color: var(--primary-200);
   transform: scale(1.05);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
